@@ -1,0 +1,1 @@
+It's a data from the file data.txt
