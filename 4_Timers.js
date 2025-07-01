@@ -12,11 +12,11 @@ setInterval(() => {
 // Exit upon finish
 setTimeout(() => {
     console.log('Exiting')
-    process.exit(1)
+    process.exit(0)
 }, time*1000+500)
 
 // Initial message
 setImmediate(() => {
-    console.log('This process will be exited in', time,'secons')
+    console.log('This process will be exited in', time,'seconds')
     console.log(time)
 })
